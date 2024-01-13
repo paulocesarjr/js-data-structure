@@ -1,0 +1,13 @@
+{
+  "name": "js-data-structure",
+  "version": "1.0.0",
+  "description": "Implementing data structures with JavaScript",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "type": "module",
+  "repository": "https://github.com/paulocesarjr/js-data-structure.git",
+  "author": "Paulo Cesar Jr <paulocesarrosajr@gmail.com>",
+  "license": "MIT"
+}
