@@ -9,4 +9,6 @@ This project implements the data structure concepts presented in the book [Grokk
 
 ### Project Setup
 
+- Run `yarn` to install all dependencies.
 - Run `yarn start` to run the project.
+- Run `yarn test` to test project.
