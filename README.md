@@ -6,6 +6,7 @@ This project implements the data structure concepts presented in the book [Grokk
 
 - [Binary Search](./src/binary-search.js)
 - [Selection Sort](./src/selection-sort.js)
+- [Divide & Conquer](./src/divide-and-conquer.js)
 
 ### Project Setup
 
