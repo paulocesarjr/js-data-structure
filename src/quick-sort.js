@@ -1,3 +1,7 @@
+/**
+ * @param {number|Array} list - List to sort
+ * @returns {number|Array} – Sorted list
+ */
 function quickSort(list = []) {
   if (list.length < 2) {
     return list
