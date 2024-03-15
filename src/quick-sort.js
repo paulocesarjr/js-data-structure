@@ -6,19 +6,19 @@ function quickSort(list = []) {
   if (list.length < 2) {
     return list
   } else {
-    const pivo = list[0]
-    const menores = []
-    const maiores = []
+    const pivot = list[0]
+    const minors = []
+    const biggers = []
 
     for (let i = 1; i < list.length; i++) {
-      if (list[i] <= pivo) {
-        menores.push(list[i])
+      if (list[i] <= pivot) {
+        minors.push(list[i])
       } else {
-        maiores.push(list[i])
+        biggers.push(list[i])
       }
     }
 
-    return quickSort(menores).concat([pivo]).concat(quickSort(maiores))
+    return quickSort(minors).concat([pivot]).concat(quickSort(biggers))
   }
 }
 
